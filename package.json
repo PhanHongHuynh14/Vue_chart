@@ -1,0 +1,30 @@
+{
+  "name": "vue-chart",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.10.38",
+    "@amcharts/amcharts5": "^5.8.4",
+    "axios": "^1.6.7",
+    "bootstrap-vue": "^2.23.1",
+    "chart.js": "^4.4.1",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "v-pagination-3": "^0.1.7",
+    "vue": "^3.3.11",
+    "vue3-bootstrap-paginate": "^1.0.0",
+    "vuejs-paginate": "^2.1.0",
+    "vuejs-paginate-next": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
+  }
+}
